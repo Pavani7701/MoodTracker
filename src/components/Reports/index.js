@@ -11,6 +11,8 @@ import './index.css'
 import Header from '../Header'
 import MoodTrackerContext from '../../context/MoodTrackerContext'
 
+// To Complete the TestCases Remove Y-Axis from the BarChart
+
 const Reports = () => (
   <MoodTrackerContext.Consumer>
     {value => {
